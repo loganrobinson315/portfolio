@@ -20,6 +20,10 @@ class Home extends Component {
           <img className='headshot' src='/images/headshot.jpg' />
 
         </div>
+        <div className='button-container'>
+
+          <a className='code' href='https://github.com/loganrobinson315/portfolio'>View Code For Site</a>
+        </div>
 
       </div>
     )
