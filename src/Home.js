@@ -17,7 +17,7 @@ class Home extends Component {
               innovative ways to solve real problems."
             </p>
           </div>
-          <img className='headshot' src='/images/headshot.jpg' />
+          <img className='headshot' src='/images/headshot.jpg' alt='img' />
 
         </div>
         <div className='button-container'>

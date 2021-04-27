@@ -14,8 +14,8 @@ class Stuff extends Component {
             </p>
           </div>
           <div className='image-container'>
-            <img className='chore' src='/images/chore.png' />
-            <img className='profile' src='/images/profile.png' />
+            <img className='chore' src='/images/chore.png' alt='img' />
+            <img className='profile' src='/images/profile.png' alt='img' />
           </div>
           <div className='button-container'>
             <a className='site' href='https://chorewars.netlify.app/#/'>View Site</a>
@@ -32,8 +32,8 @@ class Stuff extends Component {
             </p>
           </div>
           <div className='image-container'>
-            <img className='chore' src='/images/cardhome.png' />
-            <img className='profile' src='/images/cardlist.png' />
+            <img className='chore' src='/images/cardhome.png' alt='img' />
+            <img className='profile' src='/images/cardlist.png' alt='img' />
           </div>
           <div className='button-container'>
             <a className='site' href='https://sharp-wright-161e04.netlify.app/#/'>View Site</a>
@@ -50,8 +50,8 @@ class Stuff extends Component {
             </p>
           </div>
           <div className='image-container'>
-            <img className='chore' src='/images/habithome.png' />
-            <img className='profile' src='/images/habitview.png' />
+            <img className='chore' src='/images/habithome.png' alt='img' />
+            <img className='profile' src='/images/habitview.png' alt='img' />
           </div>
           <div className='button-container'>
             <a className='site' href='https://loganrobinson315-flashcard.herokuapp.com/'>View Site</a>
@@ -68,8 +68,8 @@ class Stuff extends Component {
             </p>
           </div>
           <div className='image-container'>
-            <img className='chore' src='/images/flashhome.png' />
-            <img className='profile' src='/images/flashdeck.png' />
+            <img className='chore' src='/images/flashhome.png' alt='img' />
+            <img className='profile' src='/images/flashdeck.png' alt='img' />
           </div>
           <div className='button-container'>
             <a className='site' href='https://loganrobinson315-flashcard.herokuapp.com/'>View Site</a>
