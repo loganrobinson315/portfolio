@@ -15,7 +15,7 @@ class Main extends Component {
   render () {
     return (
       <HashRouter>
-        {/* <FadeTransition> */}
+
         <div>
           <ul className='header'>
             <li>
@@ -34,25 +34,36 @@ class Main extends Component {
               <a className='github' href='https://www.linkedin.com/in/loganrobinson3/'><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
             </li>
           </ul>
-          <div className='headerpic'>
+          {/* <div className='headerpic'>
             <h1>Logan Robinson</h1>
             <h3 className='dev'>[Developer]</h3>
 
-          </div>
-          {/* <ReactCSSTransitionGroup
-            transitionName='fade'
-            transitionEnterTimeout={300}
-            transitionLeaveTimeout={300}
-          > */}
-          <div className='content'>
-              <Route exact path='/' component={Home} />
-              <Route path='/stuff' component={Stuff} />
-              <Route path='/contact' component={Contact} />
+          </div> */}
+          <header className='main-header'>
+            <div className='overlay' />
+            <video playsinline='playsinline' autoplay='autoplay' muted='muted' loop='loop'>
+              <source src='/images/Laptop2.mp4' type='video/mp4' />
+            </video>
+            <div class='container h-100'>
+              <div class='d-flex h-100 text-center align-items-center'>
+                <div class='w-100 text-white'>
+                  <h1 className='header-title'>Logan Robinson</h1>
+                  <h3 className='dev'>[Developer]</h3>
+
+                </div>
+              </div>
             </div>
+          </header>
+
+          <div className='content'>
+            <Route exact path='/' component={Home} />
+            <Route path='/stuff' component={Stuff} />
+            <Route path='/contact' component={Contact} />
+          </div>
           <div className='content' />
-          {/* </ReactCSSTransitionGroup> */}
+
         </div>
-        {/* </FadeTransition> */}
+
       </HashRouter>
 
     )
