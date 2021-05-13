@@ -10,7 +10,7 @@ class Stuff extends Component {
             <h4>Description:</h4>
             <p>Chore Wars is designed to help families hold kids accountable for doing their chores while
               allowing them to compete against other families. It provides easy ways to create and assign
-              chores while providing statistics and social interactions.
+              chores while providing statistics and social interactions. My role in this group project was to be the sole backend developer and collaborate with my team of front end developers. This app is built on the Django-Rest-framework and returns a large amount of JSON data through an API. I also played a role in developing the messaging system on the front end along with the CSS.
             </p>
           </div>
           <div className='image-container'>
@@ -27,8 +27,8 @@ class Stuff extends Component {
           <div className='content-container'>
             <h1 className='project-title'>Group Social Cards</h1>
             <h4>Description:</h4>
-            <p>Mauris sem velit, vehicula eget sodales vitae,
-              rhoncus eget sapien:
+            <p> Cards with Friends is designed to be a platform where you can easily create and share greeting cards with friends. along with sharing cards, you are also able to follow certain users and even send likes to your friends cards. As the sole backe-end developer on this app as well, we were able to collaborate and put together this app using the Django-rest-framework and React.
+
             </p>
           </div>
           <div className='image-container'>
@@ -45,8 +45,7 @@ class Stuff extends Component {
           <div className='content-container'>
             <h1 className='project-title'>Habit Tracker</h1>
             <h4>Description:</h4>
-            <p>Mauris sem velit, vehicula eget sodales vitae,
-              rhoncus eget sapien:
+            <p>Habit Tracker is an app that I individually made in Django. This allows you take make task and hold yourself accountable by tracking your progress. You are able to create a profile, set goals, record them daily, and see your daily average.
             </p>
           </div>
           <div className='image-container'>
@@ -63,8 +62,7 @@ class Stuff extends Component {
           <div className='content-container'>
             <h1 className='project-title'>Flash Cards</h1>
             <h4>Description:</h4>
-            <p>Mauris sem velit, vehicula eget sodales vitae,
-              rhoncus eget sapien:
+            <p>Habit Tracker is another individual app that allows users that sign up to make flash card decks as a study tool. Once the user creates the deck, you can view the cards and flip them over by hovering over the cards.
             </p>
           </div>
           <div className='image-container'>

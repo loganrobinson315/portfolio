@@ -7,6 +7,58 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  line-height: 400px;
+  margin: auto;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+  /* background-image: fixed; */
+   background-attachment: fixed;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -328,3 +380,4 @@ img:hover {
   /* box-shadow: black; */
   /* box-shadow: -.1rem 0 3rem black; */
 }
+
